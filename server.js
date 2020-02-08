@@ -7,6 +7,8 @@ const app = next({ dev })
 const handle = app.getRequestHandler()
 const port = process.env.PORT || 3000
 
+console.log(process.env.API_URL)
+
 app.prepare().then(() => {
   createServer((req, res) => {
     const parsedUrl = parse(req.url, true)

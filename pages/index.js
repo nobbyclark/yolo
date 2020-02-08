@@ -12,6 +12,7 @@ export default () => (
         <a>{API_URL}</a>
       </Link>
     </li>
+    <li>{process.env.API_URL}</li>
     <li>
       <Link href="/a" as="/b">
         <a>b</a>
