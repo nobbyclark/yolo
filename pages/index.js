@@ -1,11 +1,15 @@
 import React from 'react'
 import Link from 'next/link'
+import getConfig from 'next/config'
+
+const { publicRuntimeConfig } = getConfig()
+const { API_URL } = publicRuntimeConfig
 
 export default () => (
   <ul>
     <li>
       <Link href="/b" as="/a">
-        <a>a</a>
+        <a>{API_URL}</a>
       </Link>
     </li>
     <li>
