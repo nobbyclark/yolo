@@ -1,5 +1,8 @@
+require('dotenv').config()
+
 module.exports = {
   env: {
-    apiUrl: process.env.API_URL
+    datoCmsUrl: process.env.DATO_CMS_URL,
+    datoCmsToken: process.env.DATO_CMS_TOKEN
   }
 };
