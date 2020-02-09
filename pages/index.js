@@ -5,7 +5,7 @@ export default () => (
   <ul>
     <li>
       <Link href="/b" as="/a">
-        <a>a</a>
+        <a>{process.env.apiUrl}</a>
       </Link>
     </li>
     <li>
