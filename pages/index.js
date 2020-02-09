@@ -8,6 +8,7 @@ export default () => (
         <a>{process.env.customKey}</a>
       </Link>
     </li>
+    <li>{Object.keys(process.env)}</li>
     <li>
       <Link href="/a" as="/b">
         <a>b</a>
