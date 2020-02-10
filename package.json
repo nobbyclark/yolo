@@ -12,9 +12,12 @@
     "dotenv": "^8.2.0",
     "graphql": "^14.6.0",
     "graphql-tag": "^2.10.3",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "latest",
     "next-with-apollo": "^5.0.0",
     "react": "^16.7.0",
-    "react-dom": "^16.7.0"
+    "react-dom": "^16.7.0",
+    "serverless-mysql": "^1.5.3",
+    "sql-template-strings": "^2.2.2"
   }
 }
